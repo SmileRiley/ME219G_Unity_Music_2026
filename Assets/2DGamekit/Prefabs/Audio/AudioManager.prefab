@@ -177,7 +177,7 @@ MonoBehaviour:
       Data2: 1107204829
       Data3: 986780548
       Data4: 856003502
-    Path: event:/Music/Music
+    Path: event:/Music/Music 1-3
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -298,6 +298,7 @@ Transform:
   m_Children:
   - {fileID: 7188620585383569979}
   - {fileID: 7343739692746708910}
+  - {fileID: 8988860283175872275}
   - {fileID: 5138542554865848846}
   - {fileID: 4782723540720384308}
   - {fileID: 4318290237544591133}
@@ -610,6 +611,69 @@ MonoBehaviour:
       Data3: -297335617
       Data4: 78123416
     Path: event:/Music/MenuMusic
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &7690414776050492314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8988860283175872275}
+  - component: {fileID: 6230321066929360423}
+  m_Layer: 0
+  m_Name: UGMusic
+  m_TagString: UGMusic
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8988860283175872275
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7690414776050492314}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4318290237554146966}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6230321066929360423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7690414776050492314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 324758255
+      Data2: 1209470820
+      Data3: 972757421
+      Data4: -1342992785
+    Path: event:/Music/Music 4
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0

@@ -6513,7 +6513,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 140161383}
   m_SourcePrefab: {fileID: 100100000, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
 --- !u!4 &140161381 stripped
 Transform:
@@ -6521,6 +6525,31 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 140161380}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &140161382 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698,
+    type: 3}
+  m_PrefabInstance: {fileID: 140161380}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &140161383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140161382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 559ade3239054624bbc831667cc4d94f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioTrigger
+  destroyAfterUse: 0
+  audioTriggerSettings:
+  - emitter: {fileID: 0}
+    tag: Music
+    action: 2
+    parameter: 
+    targetValue: 0
 --- !u!1 &140948483 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1613638484000758, guid: 5a4dedcc0d105f34da4eed8c2a3f3f67,
