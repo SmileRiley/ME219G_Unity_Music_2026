@@ -12084,7 +12084,7 @@ Transform:
   m_GameObject: {fileID: 228570888}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -24.59, y: -0.09, z: 0}
+  m_LocalPosition: {x: -24.23, y: -0.14, z: 0}
   m_LocalScale: {x: 0.92431045, y: 0.92431045, z: 0.92431045}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13677,7 +13677,7 @@ Transform:
   m_GameObject: {fileID: 342476299}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.88, y: 0.38, z: 1.3199999}
+  m_LocalPosition: {x: 8.47, y: 0.38, z: 1.3199999}
   m_LocalScale: {x: 4.7077694, y: 4.707767, z: 4.707767}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13734,7 +13734,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300024, guid: 776d10e19ab11c44a8271fc18a42ab83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.7949219, y: 1.171875}
@@ -14199,7 +14199,7 @@ Transform:
   m_GameObject: {fileID: 386971742}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.83, y: 6.96, z: -5}
+  m_LocalPosition: {x: -12.88, y: 7.27, z: -5}
   m_LocalScale: {x: 9.227933, y: 9.227933, z: 9.227933}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20290,6 +20290,11 @@ PrefabInstance:
       propertyPath: OnExit.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 199086981881425614, guid: 6bc0b2bb61623f94aa335ee8a769a8f9,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22034,7 +22039,7 @@ Transform:
   m_GameObject: {fileID: 792719398}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.99496794, w: -0.10019422}
-  m_LocalPosition: {x: -0.8299999, y: -6.85, z: -4.49}
+  m_LocalPosition: {x: -0.24, y: -6.2, z: -4.49}
   m_LocalScale: {x: 4.945938, y: 4.945947, z: 4.94594}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -31891,7 +31896,7 @@ PrefabInstance:
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
@@ -31901,12 +31906,12 @@ PrefabInstance:
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[1].tag
-      value: Ambiance
+      value: Music
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[2].tag
-      value: MusicBoss
+      value: Music
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
@@ -31936,12 +31941,12 @@ PrefabInstance:
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[1].action
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[2].action
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
@@ -31971,12 +31976,12 @@ PrefabInstance:
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[1].parameter
-      value: Location
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[2].parameter
-      value: 
+      value: Proggression
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
@@ -32041,7 +32046,7 @@ PrefabInstance:
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[2].targetValue
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
@@ -47710,7 +47715,7 @@ Transform:
   m_GameObject: {fileID: 1884498810}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.1376344, w: 0.9904831}
-  m_LocalPosition: {x: 9.08, y: -5.11, z: -4.2299995}
+  m_LocalPosition: {x: 7.69, y: -5.17, z: -4.2299995}
   m_LocalScale: {x: 4.94593, y: 4.94594, z: 4.94594}
   m_ConstrainProportionsScale: 0
   m_Children: []
