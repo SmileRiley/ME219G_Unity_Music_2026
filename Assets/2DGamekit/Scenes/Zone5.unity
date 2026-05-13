@@ -3546,6 +3546,87 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &426297681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 426297684}
+  - component: {fileID: 426297682}
+  - component: {fileID: 426297683}
+  m_Layer: 0
+  m_Name: Bossmusic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &426297682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426297681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 88241c8498feaa74092801340f68812b, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 426297683}
+          m_TargetAssemblyTypeName: AudioEventTrigger, Assembly-CSharp
+          m_MethodName: GenerateSettings
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &426297683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426297681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03daa8c22bdddef4193840a795b881f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioEventTrigger
+  audioSettings:
+  - emitter: {fileID: 0}
+    tag: MusicBoss
+    action: 1
+    parameter: 
+    targetValue: 0
+--- !u!4 &426297684
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426297681}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &462557176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55350,6 +55431,8 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: 2652136526517044341, guid: bb48787907c249b48a5df0383be03462, type: 2}
     value: {fileID: 975682040}
+  - key: {fileID: 7563854816676922527, guid: bb48787907c249b48a5df0383be03462, type: 2}
+    value: {fileID: 426297682}
   m_ExposedReferences:
     m_References:
     - b85dec140dbe8ea4c8522ae5cf61604d: {fileID: 1094086841}
@@ -69543,7 +69626,7 @@ PrefabInstance:
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: stage2Value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
@@ -69553,12 +69636,12 @@ PrefabInstance:
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossDeathValue
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: stageParameter
-      value: 
+      value: Boss Stages
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796895, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
@@ -69633,6 +69716,8 @@ SceneRoots:
   - {fileID: 862809227}
   - {fileID: 4256432019810382529}
   - {fileID: 1650290794}
+  - {fileID: 975682041}
+  - {fileID: 426297684}
   - {fileID: 2026288438}
   - {fileID: 553744952}
   - {fileID: 111665384}
@@ -69668,4 +69753,3 @@ SceneRoots:
   - {fileID: 348153816}
   - {fileID: 493960761}
   - {fileID: 266430816}
-  - {fileID: 975682041}
