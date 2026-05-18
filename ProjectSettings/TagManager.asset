@@ -32,6 +32,7 @@ TagManager:
   - MusicPause
   - SnapshotPause
   - UGMusic
+  - Proggression
   layers:
   - Default
   - TransparentFX
