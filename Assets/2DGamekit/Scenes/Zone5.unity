@@ -67190,8 +67190,8 @@ MonoBehaviour:
   NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 8.2
+  OverrideMaxDistance: 30
 --- !u!4 &1941291154
 Transform:
   m_ObjectHideFlags: 0
@@ -67201,7 +67201,7 @@ Transform:
   m_GameObject: {fileID: 1941291152}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.54, y: 3.45, z: 0}
+  m_LocalPosition: {x: -9.47, y: 1.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
