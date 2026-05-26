@@ -142,6 +142,7 @@ public class AudioBossManager : MonoBehaviour
     
     public void BossDie(GameObject boss)
     {
+        Debug.Log("BossDie");
         if (bossDie.IsNull)
         {
             Debug.LogWarning("Fmod event not found: bossDie");
