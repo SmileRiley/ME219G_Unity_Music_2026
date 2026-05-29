@@ -401,7 +401,7 @@ MonoBehaviour:
       Data2: 1295255994
       Data3: 892699779
       Data4: 748089304
-    Path: event:/Music/Stingers/KeyStinger
+    Path: event:/Stingers/KeyStinger
   pressurePad:
     Guid:
       Data1: -2089369701
@@ -471,21 +471,21 @@ MonoBehaviour:
       Data2: 1124212719
       Data3: -1782548349
       Data4: -521180078
-    Path: event:/Music/Stingers/GameOverStinger
+    Path: event:/Stingers/GameOverStinger
   stingerKeyPickup:
     Guid:
       Data1: -1620803549
       Data2: 1295255994
       Data3: 892699779
       Data4: 748089304
-    Path: event:/Music/Stingers/KeyStinger
+    Path: event:/Stingers/KeyStinger
   stingerWeaponPickup:
     Guid:
       Data1: -1620803549
       Data2: 1295255994
       Data3: 892699779
       Data4: 748089304
-    Path: event:/Music/Stingers/KeyStinger
+    Path: event:/Stingers/KeyStinger
   stingerPuzzleSolved:
     Guid:
       Data1: 0
